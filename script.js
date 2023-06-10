@@ -9,7 +9,7 @@ function fromCelcius() {
     var f = (c * 1.8) + 32
     var k = c + 273.15
 
-    console.log(c,f,k)
+    // console.log(c,f,k)
 
     // celcius.value = c.round(3);
     farenheit.value = f.round(3);
@@ -20,7 +20,7 @@ function fromFarenheit() {
     var c = ((f-32)*5)/9
     var k = c + 273.15
 
-    console.log(c,f,k)
+    // console.log(c,f,k)
 
     celcius.value = c.round(3);
     // farenheit.value = f.round(3);
@@ -31,7 +31,7 @@ function fromKelvin() {
     var c = k - 273.15
     var f = (k - 273.15) * 9/5 + 32
 
-    console.log(c,f,k)
+    // console.log(c,f,k)
 
     celcius.value = c.round(3);
     farenheit.value = f.round(3);
